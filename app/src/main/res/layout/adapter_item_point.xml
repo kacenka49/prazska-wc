@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/textViewAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorDarkText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="K Dolum 44, Praha 6 " />
+
+            <TextView
+                    android:id="@+id/textViewOpening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="po-pá 8 :00-16:00"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="18sp" />
+
+            <TextView
+                    android:id="@+id/textViewPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="14sp"
+                    tools:text="zdarma" />
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/textViewDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="30 m"
+                android:textColor="@color/colorDarkText"
+                android:textSize="24sp" />
+
+        <ImageButton
+                android:id="@+id/rightArrowButton"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:src="@drawable/chevron_right_circle_outline"
+                android:tint="@color/colorDarkText" />
+
+    </LinearLayout>
+
+    <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="2dp"
+            android:background="?android:attr/listDivider" />
+
+</LinearLayout>

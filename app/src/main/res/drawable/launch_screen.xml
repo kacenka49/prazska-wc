@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The android:opacity=”opaque” line — this is critical in preventing a flash of black as your theme transitions. -->
+<layer-list
+        xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- The background color, preferably the same as your normal theme -->
+    <item android:drawable="@color/colorPrimaryLight"/>
+
+    <!-- Your product logo - 144dp color version of your app icon -->
+<!--    <item>
+
+        <Bitmap
+                android:width="48dp"
+                android:height="48dp"
+                android:drawable="@drawable/toilet"
+                android:gravity="center"/>
+
+    </item>-->
+    <item android:gravity="center"
+          android:width="75dp"
+          android:height="75dp"
+          android:drawable="@drawable/toilet"/>
+
+</layer-list>

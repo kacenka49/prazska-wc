@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prague toilets</string>
+    <string name="nearest_place">Nearest toilets</string>
+    <string name="map">Map</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="action_info">Information:</string>
+    <string name="app_data_provider_info">Data provider:</string>
+    <string name="app_data_updated_info">Data last updated:</string>
+    <string name="app_version_info">Version of app:</string>
+    <string name="app_about_info">This application was created as a part of bachelor thesis at VŠE. The application uses open data as a source provided <a href="https://www.geoportalpraha.cz"> by Prague licensed CC BY-SA 4.0</a>. Provided data is machine processed and improved.</string>
+    <string name="address">Address:</string>
+    <string name="price">Price:</string>
+    <string name="data_loaded">Data loaded succesfully</string>
+    <string name="distance">Distance</string>
+    <string name="opening_hours">Opening Hours:</string>
+    <string name="opening_hours_nonstop">Nonstop</string>
+    <string name="data_cachefilling">Please wait while places loads</string>
+    <string name="price_cz_crowns" translatable="false">Kč</string>
+    <string name="price_free">Free</string>
+    <string name="data_provider_info">data base source © IPR Praha</string>
+    <string name="opening_hours_unknown">Unknown</string>
+    <string name="alert_position_permission_text">App needs location, to fully work. Position is never shared or analyzed by developer.</string>
+    <string name="alert_positoin_permission_title">Please, allow permission acces</string>
+    <string name="alert_position_permission_button">I will allow position access</string>
+    <string name="no_location">Can\'t get user location. Did you enabled location on this device?</string>
+    <string name="price_unknown">Unknown</string>
+    <string name="opening_hours_opened">opened</string>
+    <string name="opening_hours_closed">closed</string>
+</resources>

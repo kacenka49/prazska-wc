@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Pražská WC</string>
+    <string name="title_activity_maps">Mapy</string>
+    <string name="nearest_place">Nejbližší toalety</string>
+    <string name="map">Mapa</string>
+    <string name="action_info">Informace</string>
+    <string name="app_version_info">Verze aplikace:</string>
+    <string name="app_data_provider_info">Data poskytuje:</string>
+    <string name="app_data_updated_info">Data naposledy aktualizovány:</string>
+    <string name="app_about_info">"Tato aplikace vznikla jako součást bakalářské práce na VŠE. Jako zdroj používá         otevřená data poskytovaná <a href="https://www.geoportalpraha.cz">Prahou s licencí CC BY-SA 4.0</a>. Data jsou strojově zpracována a vylepšena. Zdrojový kód aplikace je volně přístupný.     "</string>
+    <string name="price">Cena:</string>
+    <string name="address">Adresa:</string>
+    <string name="data_loaded">Data úspěšně zobrazena</string>
+    <string name="distance">Vzdálenost</string>
+    <string name="opening_hours">Otevírací doba:</string>
+    <string name="data_cachefilling">Vyčkejte prosím pro načtení míst</string>
+    <string name="price_free">Zdarma</string>
+    <string name="opening_hours_nonstop">Otevřeno nepřetržitě</string>
+    <string name="data_provider_info">datový podklad © IPR Praha</string>
+    <string name="opening_hours_unknown">Neznámo</string>
+    <string name="alert_position_permission_text">Aplikace portřebuje znát vaši polohu aby mohla správně fungovat. Vývojář vaši pozici dál nesdílí ani nijak neanalyzuje.</string>
+    <string name="alert_positoin_permission_title">Prosíme, povolte přístup k poloze</string>
+    <string name="alert_position_permission_button">Povolím přístup k poloze</string>
+    <string name="no_location">Nelze získat vaši polohu. Máte v zářízení povolenou gps?</string>
+    <string name="price_unknown">Neznámo</string>
+    <string name="opening_hours_opened">otevřeno</string>
+    <string name="opening_hours_closed">zavřeno</string>
+</resources>
